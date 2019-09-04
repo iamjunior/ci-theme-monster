@@ -27,4 +27,14 @@ class Theme extends CI_Controller {
 	{
 		$this->load->view('theme/theme-profile');
 	}
+
+	public function register()
+	{
+		$this->load->view('theme/register');
+	}
+
+	public function login()
+	{
+		$this->load->view('theme/login');
+	}
 }
